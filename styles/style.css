@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Amethysta&family=Lato&display=swap');
+
+
+:root {
+    --main-color: #355872;
+    --secondary-color: #7AAACE;
+    --tertiary-color: #9CD5FF;
+    --hovering-color: #F7F8F0;
+
+    --primary-font: 'Lato', sans-serif;
+    --secondary-font: 'Amethysta', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}
+
+.header{
+    padding: 2% 0% 0% 15%;
+}
+
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.header__menu__option{
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.main__presentation{
+    padding: 4% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__presentation__section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main__presentation__title{
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+}
