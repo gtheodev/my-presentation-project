@@ -2,10 +2,10 @@
 
 
 :root {
-    --main-color: #355872;
-    --secondary-color: #7AAACE;
-    --tertiary-color: #9CD5FF;
-    --hovering-color: #F7F8F0;
+    --main-color: #222831;
+    --secondary-color: #8D859B;
+    --tertiary-color: #DFD0B8;
+    --hovering-color: #DFD0B8D7;
 
     --primary-font: 'Lato', sans-serif;
     --secondary-font: 'Amethysta', sans-serif;
@@ -83,8 +83,9 @@ body {
     border: 2px solid var(--tertiary-color);
     width: 50%;
     text-align: center;
+    align-items: center;
     border-radius: 8px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -93,7 +94,7 @@ body {
 }
 
 .main__presentation__links__proper:hover {
-    background-color: var(--cor-hover);
+    background-color: var(--hovering-color);
 }
 
 .presentation__image {
