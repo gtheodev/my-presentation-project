@@ -98,7 +98,7 @@ body {
 }
 
 .main__presentation__links__icon {
-    transform:scale(1.5);
+    transform: scale(1.5);
 }
 
 .presentation__image {
@@ -108,7 +108,7 @@ body {
     height: 40rem;
 }
 
-.footer{
+.footer {
     color: var(--primary-color);
     background-color: var(--tertiary-color);
     padding: 24px;
@@ -119,26 +119,29 @@ body {
 }
 
 @media (max-width: 1200px) {
-    .header{
-         padding: 10%;  
+    .header {
+        padding: 10%;
     }
-    .header__menu{
+
+    .header__menu {
         justify-content: center;
     }
-    .main__presentation{
+
+    .main__presentation {
         flex-direction: column-reverse;
         padding: 5%;
     }
-    .main__presentation__section{
+
+    .main__presentation__section {
         width: auto;
     }
 }
 
 @media (max-width: 650px) {
 
-.presentation__image {
-    width: 26rem;
-    height: 32rem;
-}
+    .presentation__image {
+        width: 26rem;
+        height: 32rem;
+    }
 
 }
