@@ -1,5 +1,5 @@
 <h1 align="center"> PROJETO: MINHA APRESENTAÇÃO </h1>
-https://img.shields.io/badge/Status-Completo-green
+<img alt="Static Badge" src="https://img.shields.io/badge/Status-Completo-green">
 Projeto Simples usando HTML e CSS, baseado no de apresentação do cursi de HTML e CSS para projetos web.
 
 # 📁 Acesso ao projeto
