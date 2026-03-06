@@ -1,5 +1,5 @@
 <h1 align="center"> PROJETO: MINHA APRESENTAÇÃO </h1>
-[![Badge Completo](http://img.shields.io/static/v1?label=STATUS&message=Completo&color=GREEN&style=for-the-badge)](https://img.shields.io/badge/Status-Completo-green)
+https://img.shields.io/badge/Status-Completo-green
 Projeto Simples usando HTML e CSS, baseado no de apresentação do cursi de HTML e CSS para projetos web.
 
 # 📁 Acesso ao projeto
